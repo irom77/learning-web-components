@@ -1,0 +1,33 @@
+
+.button {
+    background-color: #282;
+    border: none;
+    color: white; //font
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    //transition-duration: 0.4s;
+    border-radius: 4px;
+}
+
+.button:hover {
+    background-color: #09b;
+}
+
+.button:active {
+    color: lime;
+    //font-weight: bold
+}
+
+.button.button-sm {
+    font-size: 10px;
+}
+
+.button.button-md {
+    font-size: 16px;
+}
+
+.button.button-lg {
+    font-size: 24px;
+}
